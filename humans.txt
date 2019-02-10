@@ -10,6 +10,7 @@
 # THANKS
 
     Maxime Heurteau
+    Open CLasserooms
 
 
 # TECHNOLOGY COLOPHON
