@@ -69,6 +69,14 @@ function scrollSpyFunction() {
             scrollTop: $(this.hash).offset().top - 49
         }, 1000);
     });
+    $('#promo-buttons-itinary').on('click', function (e) {
+        e.preventDefault();
+        $('#collapse').collapse('hide');
+        var hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(this.hash).offset().top - 49
+        }, 1000);
+    });
     $('#brand-all').on('click', function (e) {
         e.preventDefault();
         $('#collapse').collapse('hide');
