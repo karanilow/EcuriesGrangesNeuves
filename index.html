@@ -1,849 +1,1058 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Écuries de Grange-Neuve</title>
-        <meta name="description" content="Les écuries de Grange-Neuve sont une écurie de propriétaires qui se situent à Arbusigny en Haute-Savoie, en semi montagne avec chemins de balades à proximité. Nous disposons de pension travail de qualité pour chaque cheval.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="ecuries-gn, écuries de Grange-Neuve, Grange-Neuve, Ecuries,écuries, Ecuries Haute Savoie, Arbusigny, Annecy, Genève, ecurie de propriétaire, pension, pension travail, qualité, cheval, chevaux" />
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-touch-icon-152x152.png">
-        <link rel="icon" href="icon.png" type="image/png" />
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Écuries de Grange-Neuve</title>
+    <meta name="description"
+        content="Les écuries de Grange-Neuve sont une écurie de propriétaires qui se situent à Arbusigny en Haute-Savoie, en semi montagne avec chemins de balades à proximité. Nous disposons de pension travail de qualité pour chaque cheval.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="ecuries-gn, écuries de Grange-Neuve, Grange-Neuve, Ecuries,écuries, Ecuries Haute Savoie, Arbusigny, Annecy, Genève, ecurie de propriétaire, pension, pension travail, qualité, cheval, chevaux" />
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <style type="text/css">
-            body {
-                font-family: 'Source Serif Pro', serif;
-                font-size: 17px;
-                line-height: 1.6;
-            }
-            footer {
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-touch-icon-152x152.png">
+    <link rel="icon" href="icon.png" type="image/png" />
+    <!-- Place favicon.ico in the root directory -->
 
-            }
-            h1 {
-                font-size: 50px;
-                color: white;
-            }
-            h2 {
-                font-size: 45px;
-                text-transform: capitalize;
-            }
-            h3 {
-                font-size: 32px;
-                text-transform: capitalize;
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        footer {}
+
+        h1 {
+            font-size: 50px;
+            color: white;
+        }
+
+        h2 {
+            font-size: 45px;
+            text-transform: capitalize;
+        }
+
+        h3 {
+            font-size: 32px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+
+        h4 {
+            font-size: 24px;
+            text-transform: capitalize;
+            text-align: left;
+        }
+
+        h5 {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        h6 {
+            font-size: 12px;
+            text-align: left;
+        }
+
+        hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #985f0d;
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+
+        .article {
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        .jumbotron {
+            background: rgb(255, 255, 255);
+            border-top: 2px solid #c0c0c0;
+            border-bottom: 2px solid #c0c0c0;
+        }
+
+        .jumbotron h2 {
+            text-transform: none;
+        }
+
+        .navbar {
+            background-color: transparent;
+            background: transparent;
+            border-color: transparent;
+        }
+
+        .navbar-brand {
+            padding-top: 0px;
+        }
+
+        .navbar-collapse {
+            border-top: transparent;
+        }
+
+        .nav-pills {
+            margin-bottom: -1px;
+        }
+
+        .nav-pills>li.active>a,
+        .nav-pills>li.active>a:hover,
+        .nav-pills>li.active>a:focus {
+            color: #fff;
+            background-color: #ec971f;
+            border-color: #985f0d;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+
+        .nav-pills>li>a {
+            color: #985f0d;
+            background-color: transparent;
+            border: 1px solid #985f0d;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .nav-pills>li>a:hover {
+            color: #985f0d;
+            background-color: #eee;
+            border-color: #985f0d;
+        }
+
+        .parallax {
+            /* Create the parallax scrolling effect */
+            background-attachment: scroll;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .row {
+            margin-bottom: 50px;
+        }
+
+        .tab-pane {
+            border: 2px solid #985f0d;
+            border-radius: 6px;
+        }
+
+        @media (min-width: 300px) {
+            #adresse {
                 text-align: left;
             }
-            h4 {
-                font-size: 24px;
-                text-transform: capitalize;
-                text-align: left;
-            }
-            h5 {
-                font-size: 20px;
-                text-align: left;
-            }
-            h6 {
-                font-size: 12px;
-                text-align: left;
-            }
-            hr {
-                display: block;
-                height: 1px;
-                border: 0;
-                border-top: 1px solid #985f0d;
-                margin: 1em 0;
-                padding: 0;
-            }
-            strong {
-                font-weight: normal;
-            }
 
-
-            .article {
-                margin-bottom: 25px;
-                margin-top: 25px;
-            }
-            .jumbotron {
-                background: rgb(255,255,255);
-                border-top: 2px solid #c0c0c0;
-                border-bottom: 2px solid #c0c0c0;
-            }
-            .jumbotron h2 {
-                text-transform: none;
-            }
-            .navbar {
-                background-color: transparent;
-                background: transparent;
-                border-color: transparent;
-            }
-            .navbar-brand {
-                padding-top: 0px;
-            }
-            .navbar-collapse {
-                border-top: transparent;
-            }
-            .nav-pills {
-                margin-bottom: -1px;
-            }
-            .nav-pills > li.active > a,
-            .nav-pills > li.active > a:hover,
-            .nav-pills > li.active > a:focus {
-                color: #fff;
-                background-color: #ec971f;
-                border-color: #985f0d;
-                border-radius: 20px;
-                font-size: 20px;
-            }
-            .nav-pills > li > a{
-                color: #985f0d;
-                background-color: transparent;
-                border: 1px solid #985f0d;
-                border-radius: 10px;
-                font-size: 20px;
-            }
-            .nav-pills > li > a:hover{
-                color: #985f0d;
-                background-color: #eee;
-                border-color: #985f0d;
-            }
             .parallax {
-                /* Create the parallax scrolling effect */
-                background-attachment: scroll;
-                background-position: bottom;
-                background-repeat: no-repeat;
-                background-size: cover;
+                height: 400px;
+                /* The image used */
+                background-image: url("img/manege-equestre-phones.jpg");
             }
-            .row {
-                margin-bottom: 50px;
-            }
-            .tab-pane {
-                border: 2px solid #985f0d;
-                border-radius: 6px;
+        }
+
+        @media (min-width: 768px) {
+            .parallax {
+                height: 350px;
             }
 
-            @media (min-width: 300px) {
-                #adresse {
-                    text-align: left;
-                }
-                .parallax {
-                    height: 400px;
-                    /* The image used */
-                    background-image: url("img/manege-equestre-phones.jpg");
-                }
-            }
-            @media (min-width: 768px) {
-                .parallax {
-                    height : 350px;
-                }
-                #adresse {
-                    text-align: right;
-                }
-                #nom-ecuries {
-                    margin-top: 80px;
-                }
-                #photo_pension_travail {
-                    margin-top: 70px;
-                }
-                #photo_pension_pre {
-                    margin-top: 40px;
-                }
-            }
-            @media (min-width: 992px) { 
-                h1 {
-                    font-size: 70px;
-                }
-                .parallax {
-                    /*turn on parallaw effect */
-                    background-attachment: fixed;
-                    /* The image used */
-                    background-image: url("img/manege-equestre.jpg");
-                    /* Set a specific height */
-                    height: 425px;
-
-                }
-                #nom-ecuries {
-                    margin-top: 120px;
-                }
+            #adresse {
+                text-align: right;
             }
 
-            #invitation-aux-ecuries {
-                color: #985f0d;
-                text-align: center;
-                text-transform: none;
+            #nom-ecuries {
+                margin-top: 80px;
             }
-            #map {
-                margin-bottom: 20px;
-                margin-top: 10px;
+
+            #photo_pension_travail {
+                margin-top: 70px;
             }
-            #nav > li > a {
-                color: white;
+
+            #photo_pension_pre {
+                margin-top: 40px;
             }
-            #promo-buttons div {
-                margin-top: 15px;
+        }
+
+        @media (min-width: 992px) {
+            h1 {
+                font-size: 70px;
             }
-        </style>
-    </head>
-    <body id="page" data-spy="scroll" data-target=".navbar" data-offset="50" itemscope itemtype="http://schema.org/WebPage">
-        <!--[if lte IE 9]>
+
+            .parallax {
+                /*turn on parallaw effect */
+                background-attachment: fixed;
+                /* The image used */
+                background-image: url("img/manege-equestre.jpg");
+                /* Set a specific height */
+                height: 425px;
+
+            }
+
+            #nom-ecuries {
+                margin-top: 120px;
+            }
+        }
+
+        #invitation-aux-ecuries {
+            color: #985f0d;
+            text-align: center;
+            text-transform: none;
+        }
+
+        #map {
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        #nav>li>a {
+            color: white;
+        }
+
+        #promo-buttons div {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body id="page" data-spy="scroll" data-target=".navbar" data-offset="50" itemscope itemtype="http://schema.org/WebPage">
+    <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <div class="container-fluid">
-            <header id="head">
-                <nav id="navigation-wrap" class="navbar navbar-default navbar-fixed-top" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a id="brand-all" class="navbar-brand hidden-xs" href="#coverture"><img id="logo-all" src="img/logo2inv-all.png" alt="logo" title="logo des écuries de Grange-Neuve"></a>
-                            <a id="brand-phone" class="navbar-brand visible-xs" href="#coverture"><img id="logo-phone" src="img/logo2inv-phone.png" alt="logo" title="logo des écuries de Grange-Neuve"></a>
-                        </div>
-                        <div id="collapse" class="collapse navbar-collapse" itemprop="breadcrumb">
-                            <ul id="nav" class="nav navbar-nav navbar-right">
-                                <li><a href="#installations"> Installations </a></li>
-                                <li><a href="#prestations"> Prestations </a></li>
-                                <li><a href="#partenaires"> Partenaires </a></li>
-                                <li><a href="#contact"> Contact </a></li>
-                            </ul>
-                        </div>    
+    <!-- Add your site or application content here -->
+    <div class="container-fluid">
+        <header id="head">
+            <nav id="navigation-wrap" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a id="brand-all" class="navbar-brand hidden-xs" href="#coverture"><img id="logo-all"
+                                src="img/logo2inv-all.png" alt="logo" title="logo des écuries de Grange-Neuve"></a>
+                        <a id="brand-phone" class="navbar-brand visible-xs" href="#coverture"><img id="logo-phone"
+                                src="img/logo2inv-phone.png" alt="logo" title="logo des écuries de Grange-Neuve"></a>
                     </div>
-                </nav>
-                <!--#navigation-wrap-->
-            </header>
-            <div itemprop="mainEntity" itemscope itemtype="http://schema.org/LocalBusiness">
-                <link itemprop="url" href="www.ecuries-gn.fr">
-                <meta itemprop="priceRange" content="€€"/>
-                <div id="coverture" class="row">
-                    <div id="nom-ecuries" class="col-xs-12 hidden-xs">
-                        <h1 itemprop="name">Les Ecuries de Grange-Neuve</h1>
-                    </div>
-                    <div class="parallax"></div>
-                    <div class=container-fluid>
-                            <div id="promotion" class="jumbotron row">
-                                <div class="hidden-xs col-xs-12 col-sm-5 col-md-3">
-                                    <img id="logo-promo" src="img/logo.png" alt="Grange Neuve" title="logo des écuries de Grange-Neuve">
-                                </div>
-                                <div class="col-xs-12 col-sm-7 col-md-6">
-                                    <p style="font-size: 27px">Dimanche 7 Avril 2019</p>
-                                    <h2>Journée portes ouvertes</h2>
-                                    <p>Buvette et restauration sur place.</p>
-                                </div>
-                                <div id="promo-buttons" class="col-xs-12 col-md-3 col-md-offset-0">
-                                    <div class="col-sm-2 col-sm-offset-3 col-md-offset-0 col-md-12">
-                                        <a id="promo-buttons-itinary"class="btn btn-warning btn-lg" href="#contact">Itinéraires <span class="fa fa-map-signs" aria-hidden="true"></span></a>
-                                    </div>
-                                    <div class="col-sm-7 col-md-12">
-                                        <button data-toggle="modal" data-backdrop="false" data-target="#formulaire" class="btn btn-primary btn-lg">Nous contacter <span class="far fa-envelope"></span></button>
-                                    </div>
-                                </div>
-                            </div>
+                    <div id="collapse" class="collapse navbar-collapse" itemprop="breadcrumb">
+                        <ul id="nav" class="nav navbar-nav navbar-right">
+                            <li><a href="#installations"> Installations </a></li>
+                            <li><a href="#prestations"> Prestations </a></li>
+                            <li><a href="#partenaires"> Partenaires </a></li>
+                            <li><a href="#contact"> Contact </a></li>
+                        </ul>
                     </div>
                 </div>
-                <div id="accueil" class="row">
-                    <div  class="col-xs-12 col-sm-10 col-md-6 col-sm-offset-1 col-md-offset-3">
-                        <p>Les écuries de Grange-Neuve se situent à 
-                            <span itemprop="areaServed">Arbusigny</span> en Haute-Savoie, à 20 km de 
-                            <span itemprop="areaServed">Genève</span>, 15 min de 
-                            <span itemprop="areaServed">Cruseilles</span> et 40 min d'
-                            <span itemprop="areaServed">Annecy</span>.
-                        <p itemprop="description"><br>C'est une <strong>écurie de propriétaires</strong> d'une quinzaine de places, au calme, en semi-montagne avec chemins de balades à proximité.</p>
+            </nav>
+            <!--#navigation-wrap-->
+        </header>
+        <div itemprop="mainEntity" itemscope itemtype="http://schema.org/LocalBusiness">
+            <link itemprop="url" href="www.ecuries-gn.fr">
+            <meta itemprop="priceRange" content="€€" />
+            <div id="coverture" class="row">
+                <div id="nom-ecuries" class="col-xs-12 hidden-xs">
+                    <h1 itemprop="name">Les Ecuries de Grange-Neuve</h1>
+                </div>
+                <div class="parallax"></div>
+            </div>
+            <div id="accueil" class="row">
+                <div class="col-xs-12 col-sm-10 col-md-6 col-sm-offset-1 col-md-offset-3">
+                    <p>Les écuries de Grange-Neuve se situent à
+                        <span itemprop="areaServed">Arbusigny</span> en Haute-Savoie, à 20 km de
+                        <span itemprop="areaServed">Genève</span>, 15 min de
+                        <span itemprop="areaServed">Cruseilles</span> et 40 min d'
+                        <span itemprop="areaServed">Annecy</span>.
+                        <p itemprop="description"><br>C'est une <strong>écurie de propriétaires</strong> d'une quinzaine
+                            de places, au calme, en semi-montagne avec chemins de balades à proximité.</p>
                         <p itemprop="founder" itemscope itemtype="http://schema.org/Person">
-                            <br>La structure est gérée par <span itemprop="givenName">Hermine</span> <span itemprop="familyName">de Turckheim</span>, monitrice et juge de dressage, membre du <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">CFJD (<span itemprop="legalName">Club Français des Juges de Dressage</span>)</span>, formée à Saumur.
-                            <br><br><a itemprop="url" href="histoire.html" class="btn btn-lg btn-warning">Son histoire</a>
+                            <br>La structure est gérée par <span itemprop="givenName">Hermine</span> <span
+                                itemprop="familyName">de Turckheim</span>, monitrice et juge de dressage, membre du
+                            <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">CFJD (<span
+                                    itemprop="legalName">Club Français des Juges de Dressage</span>)</span>, formée à
+                            Saumur.
+                            <br><br><a itemprop="url" href="histoire.html" class="btn btn-lg btn-warning">Son
+                                histoire</a>
                         </p>
                         <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-                            <meta itemprop="latitude" content="46,0875342281281"/>
-                            <meta itemprop="longitude" content="6,19289875030518"/>
+                            <meta itemprop="latitude" content="46,0875342281281" />
+                            <meta itemprop="longitude" content="6,19289875030518" />
                         </div>
-                    </div>
                 </div>
-                <div id="installations" class="row">
-                    <div  class="col-xs-12 col-md-8 col-md-offset-2">
-                        <h2>installations</h2>
-                        <p itemprop="description">Les écuries sont composées d'un <strong>manège</strong>, d'une <strong>carrière</strong>, de 15 <strong>boxes</strong>, de <strong>paddocks</strong>, d'une douche intérieure, d'un <strong>espace de soins</strong>, d'un <strong>club house</strong> chauffé et d'une <strong>sellerie</strong>.</p>
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel" data-slide-to="1"></li>
-                                <li data-target="#carousel" data-slide-to="2"></li>
-                                <li data-target="#carousel" data-slide-to="3"></li>
-                                <li data-target="#carousel" data-slide-to="4"></li>
-                                <li data-target="#carousel" data-slide-to="5"></li>
-                                <li data-target="#carousel" data-slide-to="6"></li>
-                            </ol>                        
-                            <div class="carousel-inner">
-                                <div class="item active "> <img src="img/les-boxes-interieurs.jpg" alt="les boxes interieurs" title="les boxes intérieurs" class="img-responsive" itemprop="photo"> </div>
-                                <div class="item"> <img src="img/un-boxe-interieur.jpg" alt="un box interieur" title="l'un des boxes intérieurs" class="img-responsive" itemprop="photo"> </div>
-                                <div class="item"> <img src="img/manege_equestre_carousel.jpg" alt="le manege" title="le manege de Grange-Neuve" class="img-responsive" itemprop="image"> </div>
-                                <div class="item"> <img src="img/les-boxes-exterieurs.jpg" alt="les boxes" title="les boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
-                                <div class="item"> <img src="img/un-boxe-exterieur.jpg" alt="un box" title="l'un des boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
-                                <div class="item"> <img src="img/un-boxe-ouvert-interieur.jpg" alt="un box ouvert" title="l'un des boxes ouvert interieurs" class="img-responsive" itemprop="photo"> </div>
-                                <div class="item"> <img src="img/une-douche-interieur.jpg" alt="un box" title="l'un des boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
+            </div>
+            <div id="installations" class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <h2>installations</h2>
+                    <p itemprop="description">Les écuries sont composées d'un <strong>manège</strong>, d'une
+                        <strong>carrière</strong>, de 15 <strong>boxes</strong>, de <strong>paddocks</strong>, d'une
+                        douche intérieure, d'un <strong>espace de soins</strong>, d'un <strong>club house</strong>
+                        chauffé et d'une <strong>sellerie</strong>.</p>
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                            <li data-target="#carousel" data-slide-to="4"></li>
+                            <li data-target="#carousel" data-slide-to="5"></li>
+                            <li data-target="#carousel" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active "> <img src="img/les-boxes-interieurs.jpg"
+                                    alt="les boxes interieurs" title="les boxes intérieurs" class="img-responsive"
+                                    itemprop="photo"> </div>
+                            <div class="item"> <img src="img/un-boxe-interieur.jpg" alt="un box interieur"
+                                    title="l'un des boxes intérieurs" class="img-responsive" itemprop="photo"> </div>
+                            <div class="item"> <img src="img/manege_equestre_carousel.jpg" alt="le manege"
+                                    title="le manege de Grange-Neuve" class="img-responsive" itemprop="image"> </div>
+                            <div class="item"> <img src="img/les-boxes-exterieurs.jpg" alt="les boxes"
+                                    title="les boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
+                            <div class="item"> <img src="img/un-boxe-exterieur.jpg" alt="un box"
+                                    title="l'un des boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
+                            <div class="item"> <img src="img/un-boxe-ouvert-interieur.jpg" alt="un box ouvert"
+                                    title="l'un des boxes ouvert interieurs" class="img-responsive" itemprop="photo">
                             </div>
-                            <a class="left carousel-control" href="#carousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                            <div class="item"> <img src="img/une-douche-interieur.jpg" alt="un box"
+                                    title="l'un des boxes extérieurs" class="img-responsive" itemprop="photo"> </div>
                         </div>
+                        <a class="left carousel-control" href="#carousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
                     </div>
                 </div>
-                <div id="prestations" class="row">
-                    <div id="onglets" class="col-xs-12">
-                        <h2>prestations</h2>
-                        <ul class="nav nav-pills nav-justified">
-                            <li id="onglet-pensions" class=" active"><a href="#contenu-pensions" data-toggle="tab">Pensions</a></li>
-                            <li id="onglet-alacarte" ><a href="#contenu-a-la-carte" data-toggle="tab">À la carte</a></li>
-                            <li id="onglet-enseignement" ><a href="#contenu-enseignement" data-toggle="tab">Enseignement</a></li>
-                        </ul>
-                        <div class="tab-content" itemprop="hasOfferCatalog" itemscope itemtype="http://schema.org/OfferCatalog">
-                            <div class="tab-pane fade active in col-xs-12" id="contenu-pensions">
-                                <div class=" article col-xs-12" itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                    <div class="col-xs-12 col-md-7 col-md-push-5 ">
-                                        <div class="col-xs-12"> 
-                                            <h3 itemprop="name">pension pré</h3>
-                                            <h5>250 € / mois TTC</h5>
-                                            <div itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                                <p style="text-align: justify"><br>
-                                                    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                        <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                            En troupeau de 4, votre cheval est au pré à l'année. Il bénéficie de <b>foin à volonté</b> pour compléter l'herbe et de compléments granulés si besoin. <b>La surveillance est quotidienne</b> et en cas de soins à faire en votre absence, ils sont effectués par la gérante. <b>Un abris est à disposition</b> en plus de l'ombre que leur procurent les arbres. Vous pourrez <b>profiter d'une sellerie et d'une douche pour vos chevaux</b> et bien sûr vous réchauffer au club house l'hiver!!
-                                                        </span>
+            </div>
+            <div id="prestations" class="row">
+                <div id="onglets" class="col-xs-12">
+                    <h2>prestations</h2>
+                    <ul class="nav nav-pills nav-justified">
+                        <li id="onglet-pensions" class=" active"><a href="#contenu-pensions"
+                                data-toggle="tab">Pensions</a></li>
+                        <li id="onglet-alacarte"><a href="#contenu-a-la-carte" data-toggle="tab">À la carte</a></li>
+                        <li id="onglet-enseignement"><a href="#contenu-enseignement" data-toggle="tab">Enseignement</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" itemprop="hasOfferCatalog" itemscope
+                        itemtype="http://schema.org/OfferCatalog">
+                        <div class="tab-pane fade active in col-xs-12" id="contenu-pensions">
+                            <div class=" article col-xs-12" itemprop="itemListElement" itemscope
+                                itemtype="http://schema.org/OfferCatalog">
+                                <div class="col-xs-12 col-md-7 col-md-push-5 ">
+                                    <div class="col-xs-12">
+                                        <h3 itemprop="name">pension pré</h3>
+                                        <h5>250 € / mois TTC</h5>
+                                        <div itemprop="itemListElement" itemscope
+                                            itemtype="http://schema.org/OfferCatalog">
+                                            <p style="text-align: justify"><br>
+                                                <span itemprop="itemListElement" itemscope
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span itemprop="itemOffered" itemscope
+                                                        itemtype="http://schema.org/Service">
+                                                        En troupeau de 4, votre cheval est au pré à l'année. Il
+                                                        bénéficie de <b>foin à volonté</b> pour compléter l'herbe et de
+                                                        compléments granulés si besoin. <b>La surveillance est
+                                                            quotidienne</b> et en cas de soins à faire en votre absence,
+                                                        ils sont effectués par la gérante. <b>Un abris est à
+                                                            disposition</b> en plus de l'ombre que leur procurent les
+                                                        arbres. Vous pourrez <b>profiter d'une sellerie et d'une douche
+                                                            pour vos chevaux</b> et bien sûr vous réchauffer au club
+                                                        house l'hiver!!
                                                     </span>
-                                                    <br>A tout moment de l'année, vous pouvez basculer sur la pension pré + installations et revenir à la pension de base quand vous le souhaitez (mensuellement).
-                                                </p>
-                                            </div>
+                                                </span>
+                                                <br>A tout moment de l'année, vous pouvez basculer sur la pension pré +
+                                                installations et revenir à la pension de base quand vous le souhaitez
+                                                (mensuellement).
+                                            </p>
+                                        </div>
 
-                                            <div class="visible-sm">
-                                                <h3 itemprop="name"><br>pension pré + installation</h3>
-                                                <h5>350 € / mois TTC</h5>
-                                                <div itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                                    <p style="text-align: justify"><br>
-                                                        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                            <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                                Idem que la pension pré, sauf que vous avez accès à toutes les installations, type manège et carrière, et ce comme vous le souhaitez.
-                                                            </span>
+                                        <div class="visible-sm">
+                                            <h3 itemprop="name"><br>pension pré + installation</h3>
+                                            <h5>350 € / mois TTC</h5>
+                                            <div itemprop="itemListElement" itemscope
+                                                itemtype="http://schema.org/OfferCatalog">
+                                                <p style="text-align: justify"><br>
+                                                    <span itemprop="itemListElement" itemscope
+                                                        itemtype="http://schema.org/Offer">
+                                                        <span itemprop="itemOffered" itemscope
+                                                            itemtype="http://schema.org/Service">
+                                                            Idem que la pension pré, sauf que vous avez accès à toutes
+                                                            les installations, type manège et carrière, et ce comme vous
+                                                            le souhaitez.
                                                         </span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                    <div class="col-xs-12 col-md-5 col-md-pull-7 hidden-sm">
-                                        <div id="photo_pension_pre" class="col-sm-12">
-                                            <div class="item active"> <img src="img/pension-pre.jpg" alt="pre" title="rayon de soleil sur le pre" class="img-responsive" itemprop="image"> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class=" article col-xs-12" itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                    <div class="col-xs-12 col-sm-7 col-sm-push-5 ">
-                                        <div class="col-xs-12 col-md-10">
-                                            <div class="hidden-sm">
-                                                <h3 itemprop="name">pension pré + installations</h3>
-                                                <h5>350 € / mois TTC</h5>
-                                                <div itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                                    <p style="text-align: justify"><br>
-                                                        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                            <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                                Idem que la pension pré, sauf que vous avez accès à toutes les installations, type manège et carrière, et ce comme vous le souhaitez.<br><br>
-                                                            </span>
-                                                        </span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <h3 itemprop="name">pension box</h3>
-                                            <h5>480 € / mois TTC</h5>
-                                            <div itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                                <p style="text-align: justify"><br>Cette formule vous donne 
-                                                    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                        <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                            <span itemprop="name">accès à l'ensemble des installations,</span>
-                                                        </span>
-                                                    </span>garantit une <b>sortie quotidienne au paddock du lundi au vendredi (en libre accès le week-end)</b>.
-                                                    <br><br>Les chevaux sont logés sur paille et nourris au foin et complémentés en granulés produits localement, composés de <b>céréales régionales</b> et fabriqués par une entreprise familiale.
+                                                    </span>
                                                 </p>
                                             </div>
-                                        </div>  
-                                    </div>
-                                    <div class="col-xs-12 col-sm-5 col-sm-pull-7">
-                                        <div id="photo_pension_complete" class="col-sm-12 col-md-11 col-md-offset-1">
-                                            <div class="item active"> 
-                                                <img src="img/pension.jpg" alt="deux cheveaux aux boxes" title="deux cheveaux en pleine discussion" class="img-responsive" itemprop="image"> 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class=" article col-xs-12" itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                    <div class="col-xs-12 col-sm-7 col-sm-push-5">
-                                        <div class="col-xs-12 col-md-10"> 
-                                            <h3 itemprop="name">pension travail</h3>
-                                            <h5>750 € / mois TTC</h5>
-                                            <p style="text-align: justify"><br>Une formule de pension travail vous est proposée, afin d'assurer la sortie quotidienne de votre <span itemprop="disambiguatingDescription">cheval</span>, et selon des objectifs définis ensemble : entretien, compétition, rééducation ....<br>
-                                                <br>Cette formule comprend un 
-                                                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                    <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                        <span itemprop="name"><b>cours particulier mensuel pour le propriétaire</b></span>
+                                <div class="col-xs-12 col-md-5 col-md-pull-7 hidden-sm">
+                                    <div id="photo_pension_pre" class="col-sm-12">
+                                        <div class="item active"> <img src="img/pension-pre.jpg" alt="pre"
+                                                title="rayon de soleil sur le pre" class="img-responsive"
+                                                itemprop="image"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" article col-xs-12" itemprop="itemListElement" itemscope
+                                itemtype="http://schema.org/OfferCatalog">
+                                <div class="col-xs-12 col-sm-7 col-sm-push-5 ">
+                                    <div class="col-xs-12 col-md-10">
+                                        <div class="hidden-sm">
+                                            <h3 itemprop="name">pension pré + installations</h3>
+                                            <h5>350 € / mois TTC</h5>
+                                            <div itemprop="itemListElement" itemscope
+                                                itemtype="http://schema.org/OfferCatalog">
+                                                <p style="text-align: justify"><br>
+                                                    <span itemprop="itemListElement" itemscope
+                                                        itemtype="http://schema.org/Offer">
+                                                        <span itemprop="itemOffered" itemscope
+                                                            itemtype="http://schema.org/Service">
+                                                            Idem que la pension pré, sauf que vous avez accès à toutes
+                                                            les installations, type manège et carrière, et ce comme vous
+                                                            le souhaitez.<br><br>
+                                                        </span>
                                                     </span>
-                                                </span>
-                                                ainsi que 
-                                                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                                    <span itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                        <span itemprop="name"><b>des prestations de travail type monte ou longe, effectuées par la monitrice</b>.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <h3 itemprop="name">pension box</h3>
+                                        <h5>480 € / mois TTC</h5>
+                                        <div itemprop="itemListElement" itemscope
+                                            itemtype="http://schema.org/OfferCatalog">
+                                            <p style="text-align: justify"><br>Cette formule vous donne
+                                                <span itemprop="itemListElement" itemscope
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span itemprop="itemOffered" itemscope
+                                                        itemtype="http://schema.org/Service">
+                                                        <span itemprop="name">accès à l'ensemble des
+                                                            installations,</span>
                                                     </span>
-                                                </span>
-                                                <br><br><i>"Je suis à votre écoute pour m'adapter à vos besoins, afin de vous offrir les meilleurs moyens de progression, pour vous et votre cheval."</i>
+                                                </span>garantit une <b>sortie quotidienne au paddock du lundi au
+                                                    vendredi (en libre accès le week-end)</b>.
+                                                <br><br>Les chevaux sont logés sur paille et nourris au foin et
+                                                complémentés en granulés produits localement, composés de <b>céréales
+                                                    régionales</b> et fabriqués par une entreprise familiale.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-xs-12 col-sm-5 col-sm-pull-7">
-                                        <div id="photo_pension_travail" class="col-sm-12">
-                                            <div class="item active"> <img src="img/pension-travail.jpg" alt="travail en longues rênes" title="le travail de la monitrice en longues rênes" class="img-responsive" itemprop="image"> </div>
-                                        </div>
-                                        <div class="visible-sm col-sm-12">
-                                            <div class="item active" style="padding-top:25px"> <img src="img/hermine-longues-renes.jpg" alt="longues renes" title="Hermine en longues renes" class="img-responsive">
-                                            </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+                                    <div id="photo_pension_complete" class="col-sm-12 col-md-11 col-md-offset-1">
+                                        <div class="item active">
+                                            <img src="img/pension.jpg" alt="deux cheveaux aux boxes"
+                                                title="deux cheveaux en pleine discussion" class="img-responsive"
+                                                itemprop="image">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade col-xs-12" id="contenu-a-la-carte">
-                                <div class="article col-xs-12" itemprop="itemListElement" itemscope itemtype="http://schema.org/OfferCatalog">
-                                    <div class="col-xs-12">
-                                        <p>Voici les prestations effectuées par la monitrice : 
-                                        </p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-10 col-md-offset-1">
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
-                                                    <h5 itemprop="name">Travail monté</h5>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                                    <h6 itemprop="description">Sur le plat ou en éxtérieur</h6>
-                                                    <hr/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2" >
-                                                    <h5 itemprop="name">Travail à pieds</h5>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                                    <h6 itemprop="description">Longe, enrênements, longues rênes</h6>
-                                                    <hr/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
-                                                    <h5 itemprop="name">Sortie au paddock</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <hr/>
-                                        </div>
-                                        <div  itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2" >
-                                                    <h5 itemprop="name">Cours particulier ou à deux (1h)</h5>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                                    <h6 itemprop="description">Stretching du couple, travail à pieds, dressage, travail sur le plat, obstacle ...</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-7 col-sm-8">
-                                            <h5 style="text-align:right">Carte de 5 cours</h5>
-                                        </div>
-                                        <div class="col-xs-5 col-sm-3">
-                                            <h5>10 € offerts</h5>
-                                        </div>
-                                        <div class="col-xs-7 col-sm-8">
-                                            <h5 style="text-align:right">Carte de 10 cours</h5>
-                                        </div>
-                                        <div class="col-xs-5 col-sm-3">
-                                            <h5>20 € offerts</h5>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <hr/>
-                                        </div>
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="hidden-xs col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
-                                                    <h5 itemprop="name">Cours collectif (1h, 3-5 personnes)</h5>
-                                                </div>
-                                                <div class="visible-xs col-xs-12">
-                                                    <h5>Cours collectif<br>(1h, 3-5 pers.)</h5>
-                                                </div>
-                                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                                    <h6 itemprop="description">À partir de 19 heures pour passer un agréable moment convivial.</h6>
-                                                    <hr/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
-                                                    <h5 itemprop="name">Tonte</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <hr/>
-                                        </div>
-                                        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
-                                            <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-                                                <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
-                                                    <h5 itemprop="name">Vermifugation</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <hr/>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12">
-                                        <p>Plusieurs fois par an, selon vos besoins, des stages sont proposés, et ce dans toutes les disciplines.<br>
-                                            <br>Il est possible de faire venir un formateur selon vos besoins ou de louer un espace de travail à l'heure ou à la journée.
+                            <div class=" article col-xs-12" itemprop="itemListElement" itemscope
+                                itemtype="http://schema.org/OfferCatalog">
+                                <div class="col-xs-12 col-sm-7 col-sm-push-5">
+                                    <div class="col-xs-12 col-md-10">
+                                        <h3 itemprop="name">pension travail</h3>
+                                        <h5>750 € / mois TTC</h5>
+                                        <p style="text-align: justify"><br>Une formule de pension travail vous est
+                                            proposée, afin d'assurer la sortie quotidienne de votre <span
+                                                itemprop="disambiguatingDescription">cheval</span>, et selon des
+                                            objectifs définis ensemble : entretien, compétition, rééducation ....<br>
+                                            <br>Cette formule comprend un
+                                            <span itemprop="itemListElement" itemscope
+                                                itemtype="http://schema.org/Offer">
+                                                <span itemprop="itemOffered" itemscope
+                                                    itemtype="http://schema.org/Service">
+                                                    <span itemprop="name"><b>cours particulier mensuel pour le
+                                                            propriétaire</b></span>
+                                                </span>
+                                            </span>
+                                            ainsi que
+                                            <span itemprop="itemListElement" itemscope
+                                                itemtype="http://schema.org/Offer">
+                                                <span itemprop="itemOffered" itemscope
+                                                    itemtype="http://schema.org/Service">
+                                                    <span itemprop="name"><b>des prestations de travail type monte ou
+                                                            longe, effectuées par la monitrice</b>.</span>
+                                                </span>
+                                            </span>
+                                            <br><br><i>"Je suis à votre écoute pour m'adapter à vos besoins, afin de
+                                                vous offrir les meilleurs moyens de progression, pour vous et votre
+                                                cheval."</i>
                                         </p>
                                     </div>
                                 </div>
+                                <div class="col-xs-12 col-sm-5 col-sm-pull-7">
+                                    <div id="photo_pension_travail" class="col-sm-12">
+                                        <div class="item active"> <img src="img/pension-travail.jpg"
+                                                alt="travail en longues rênes"
+                                                title="le travail de la monitrice en longues rênes"
+                                                class="img-responsive" itemprop="image"> </div>
+                                    </div>
+                                    <div class="visible-sm col-sm-12">
+                                        <div class="item active" style="padding-top:25px"> <img
+                                                src="img/hermine-longues-renes.jpg" alt="longues renes"
+                                                title="Hermine en longues renes" class="img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="tab-pane fade col-xs-12" id="contenu-enseignement">
-                                <div class="article col-xs-12">
-                                    <p>Aux écuries de Grange-Neuve, les cours sont dispensés par la gérante Hermine de Turckheim, monitrice diplômée.</p>
-                                    <a href="histoire.html" class="btn btn-lg btn-warning">Son histoire    </a>
-                                    <p><br>Vous avez la possibilité de prendre des cours particuliers à votre guise. Les séances durent une heure selon la discipline de votre choix et vos objectifs (soit travail monté, soit séance à pieds). Lors de l’achat d’une carte de cinq cours, vous bénéficiez de six mois pour l’utiliser, et d’une remise de 10 € ; et pour l’achat d’une carte de dix cours, la validité est de 10 mois, et la remise s’élève à 20 €.<br>
-                                        Les cours particuliers à deux sont également possibles et bénéficient d’une remise de 5 € par personne.<br><br>
-                                        Dans la formule de pension travail vous bénéficiez d’un cours particulier mensuel.<br><br>
-                                        Un cours collectif ouvert à tous (cavaliers extérieurs admis) a lieu une fois par semaine. Un moment convivial de fin de journée !<br> 
-                                        <br>Plusieurs fois par an et selon vos besoins, des stages sont proposés. Il est possible de faire venir un formateur de votre choix ou de louer un espace de travail à l’heure. Pour plus d’information n’hésitez pas à me contacter par mail.<br>
-                                        Retrouvez tous nos tarifs en passant aux écuries !
+                        </div>
+                        <div class="tab-pane fade col-xs-12" id="contenu-a-la-carte">
+                            <div class="article col-xs-12" itemprop="itemListElement" itemscope
+                                itemtype="http://schema.org/OfferCatalog">
+                                <div class="col-xs-12">
+                                    <p>Voici les prestations effectuées par la monitrice :
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Travail monté</h5>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                                <h6 itemprop="description">Sur le plat ou en éxtérieur</h6>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Travail à pieds</h5>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                                <h6 itemprop="description">Longe, enrênements, longues rênes</h6>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Sortie au paddock</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                        <hr />
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Cours particulier ou à deux (1h)</h5>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                                <h6 itemprop="description">Stretching du couple, travail à pieds,
+                                                    dressage, travail sur le plat, obstacle ...</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7 col-sm-8">
+                                        <h5 style="text-align:right">Carte de 5 cours</h5>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-3">
+                                        <h5>10 € offerts</h5>
+                                    </div>
+                                    <div class="col-xs-7 col-sm-8">
+                                        <h5 style="text-align:right">Carte de 10 cours</h5>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-3">
+                                        <h5>20 € offerts</h5>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                        <hr />
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="hidden-xs col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Cours collectif (1h, 3-5 personnes)</h5>
+                                            </div>
+                                            <div class="visible-xs col-xs-12">
+                                                <h5>Cours collectif<br>(1h, 3-5 pers.)</h5>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                                <h6 itemprop="description">À partir de 19 heures pour passer un agréable
+                                                    moment convivial.</h6>
+                                                <hr />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Tonte</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                        <hr />
+                                    </div>
+                                    <div itemprop="itemListElement" itemscope itemtype="http://schema.org/Offer">
+                                        <div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+                                            <div class="col-xs-8 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                                                <h5 itemprop="name">Vermifugation</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                        <hr />
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <p>Plusieurs fois par an, selon vos besoins, des stages sont proposés, et ce dans
+                                        toutes les disciplines.<br>
+                                        <br>Il est possible de faire venir un formateur selon vos besoins ou de louer un
+                                        espace de travail à l'heure ou à la journée.
                                     </p>
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-pane fade col-xs-12" id="contenu-enseignement">
+                            <div class="article col-xs-12">
+                                <p>Aux écuries de Grange-Neuve, les cours sont dispensés par la gérante Hermine de
+                                    Turckheim, monitrice diplômée.</p>
+                                <a href="histoire.html" class="btn btn-lg btn-warning">Son histoire </a>
+                                <p><br>Vous avez la possibilité de prendre des cours particuliers à votre guise. Les
+                                    séances durent une heure selon la discipline de votre choix et vos objectifs (soit
+                                    travail monté, soit séance à pieds). Lors de l’achat d’une carte de cinq cours, vous
+                                    bénéficiez de six mois pour l’utiliser, et d’une remise de 10 € ; et pour l’achat
+                                    d’une carte de dix cours, la validité est de 10 mois, et la remise s’élève à 20
+                                    €.<br>
+                                    Les cours particuliers à deux sont également possibles et bénéficient d’une remise
+                                    de 5 € par personne.<br><br>
+                                    Dans la formule de pension travail vous bénéficiez d’un cours particulier
+                                    mensuel.<br><br>
+                                    Un cours collectif ouvert à tous (cavaliers extérieurs admis) a lieu une fois par
+                                    semaine. Un moment convivial de fin de journée !<br>
+                                    <br>Plusieurs fois par an et selon vos besoins, des stages sont proposés. Il est
+                                    possible de faire venir un formateur de votre choix ou de louer un espace de travail
+                                    à l’heure. Pour plus d’information n’hésitez pas à me contacter par mail.<br>
+                                    Retrouvez tous nos tarifs en passant aux écuries !
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 ">
-                            <h4 id="invitation-aux-ecuries" >Tous nos tarifs sont visibles aux écuries, passez nous voir ou contactez-nous</h4>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 ">
+                        <h4 id="invitation-aux-ecuries">Tous nos tarifs sont visibles aux écuries, passez nous voir ou
+                            contactez-nous</h4>
+                    </div>
+                    <div class="col-xs-12 col-sm-6" itemprop="address" itemscope
+                        itemtype="http://schema.org/PostalAddress">
+                        <p id="adresse">EARL Les écuries de Grange-Neuve <br>
+                            <span itemprop="streetAddress">285 impasse de grange-neuve</span><br>
+                            <span itemprop="postalCode">74930</span>
+                            <span itemprop="addressLocality">Arbusigny</span> </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p style="text-align: left"><i class="fas fa-phone"></i>+33 (0)6.89.79.65.04 <br>
+                            <i class="fas fa-at"></i>ecuries.gn@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div id="partenaires" class="row">
+                <div class="col-xs-12">
+                    <h2>partenaires</h2>
+                </div>
+                <div class="col-xs-12 col-sm-11 col-md-10 col-sm-offset-1">
+                    <ul class="nav nav-pills nav-stacked pull-right col-xs-12 col-sm-5 col-md-4">
+                        <li class="active"><a href="#contenu-soins-courants" data-toggle="tab">Soins courants</a></li>
+                        <li><a href="#contenu-materiel" data-toggle="tab">Matériel</a></li>
+                        <li><a href="#contenu-transport" data-toggle="tab">Transport</a></li>
+                        <li><a href="#contenu-elevage" data-toggle="tab">Elevage</a></li>
+                        <li><a href="#contenu-filieres" data-toggle="tab">Filière professionnelle</a></li>
+                        <li><a href="#contenu-autres" data-toggle="tab">Autres</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in col-xs-12 col-sm-7 col-md-8 active" id="contenu-soins-courants">
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.cliniqueequineargonay.fr/" target="_blank"><img
+                                            src="img/partenaires/clinique-equine.jpg" alt="clinique equine"
+                                            title="Clinique equine d'Argonay" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Clinique vétérinaire équine d'Argonay</p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="https://www.facebook.com/Haras-de-la-Vayrie-1470761062976945/"
+                                        target="_blank"><img src="img/partenaires/centre-de-soin.jpg"
+                                            alt="centre de soin" title="Les écuries de Vayrie" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Centre de soins, remise en forme et hydrothérapie : <span itemprop="name">Les
+                                            écuries de la Vayrie</span></p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12" itemprop="sponsor" itemscope itemtype="http://schema.org/Person">
+                                <p>Pour un Ostéopathe équin, vous pouvez joindre <span itemprop="name">Amandine
+                                        Paquet</span> au <span itemprop="telephone">06.86.99.29.65</span></p>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                            <p id="adresse">EARL Les écuries de Grange-Neuve <br>  
-                                <span itemprop="streetAddress">285 impasse de grange-neuve</span><br> 
-                                <span itemprop="postalCode">74930</span> 
+                        <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-materiel">
+                            <div class=" article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://tournet-nettoyage.fr/" target="_blank"><img
+                                            src="img/partenaires/nettoyage.jpg" alt="nettoyage"
+                                            title="agence de nettoyage TOURNET" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Nettoyage de couvertures, tapis : <span itemprop="name">TOURNET</span></p>
+                                </div>
+                            </div>
+                            <div class=" article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://selle-occasion-rhone-alpes.e-monsite.com/"
+                                        target="_blank"><img src="img/partenaires/SophiaMoreau.jpg" alt="sophia-moreau"
+                                            title="Selles Occasion Rhône Alpes" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Conseil vente/location de selles : <span itemprop="name">Sophia Moreau</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-transport">
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="https://www.facebook.com/Ecurie-et-Transport-Vidale-477590392415012/"
+                                        target="_blank"><img src="img/partenaires/transport-vidale.jpg" alt="transport"
+                                            title="Transport de chevaux : Transport Vidale" class="img-responsive"
+                                            itemprop="image"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Transport de chevaux : <span itemprop="name">Transport Vidale</span></p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="https://www.dadavroum.fr/annonce-location/boxer?date_start=04-07-2018&date_end=04-07-2018"
+                                        target="_blank"><img src="img/partenaires/dadavroum.jpg" alt="transport"
+                                            title="Location de VL en haute-Savoie : Dadavroom" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Location de VL en haute-Savoie : <span itemprop="name">Dadavroom</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-elevage">
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="https://les-minis-saumur.weebly.com/" target="_blank"><img
+                                            src="img/partenaires/elevage-de-chevaux-miniatures.jpg" alt="elevage"
+                                            title="Élevage de chevaux miniatures : Les minis MH" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Élevage de chevaux miniatures : <span itemprop="name">Les minis MH</span></p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.centre-equestre-cyclamens.fr/"
+                                        target="_blank"><img src="img/partenaires/elevage-de-poneys-de-sport.jpg"
+                                            alt="elevage" title="Élevage de poneys de sport : Élevage des Cyclamens"
+                                            class="img-responsive" itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Élevage de poneys de sport : <span itemprop="name">Élevage des Cyclamens</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.elevagedelamure.com/ " target="_blank"><img
+                                            src="img/partenaires/elevage-de-chevaux-de-selle.jpg" alt="elevage"
+                                            title="Élevage de chevaux de selle : Élevage de la Mûre"
+                                            class="img-responsive" itemprop="image"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Élevage de chevaux de selle : <span itemprop="name">Élevage de la Mûre</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-filieres">
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.cheval-auvergne-rhone-alpes.com/"
+                                        target="_blank"><img src="img/partenaires/conseil-de-la-filiere-cheval.jpg"
+                                            alt="filiere" title="Conseil de la filière cheval" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Conseil de la filière cheval</p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="https://www.equitation-auvergnerhonealpes.com/"
+                                        target="_blank"><img src="img/partenaires/comite-regional-d-equitation.jpg"
+                                            alt="filiere" title="Comité Régional d’équitation Auvergne-Rhône-Alpes"
+                                            class="img-responsive" itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Comité Régional d’équitation Auvergne-Rhône-Alpes</p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.rhonealpesdressage.com/" target="_blank"><img
+                                            src="img/partenaires/comite-regional-de-dressage.jpg" alt="filiere"
+                                            title="Comité Régional de dressage" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Comité Régional de dressage</p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="https://www.facebook.com/Comit%C3%A9-R%C3%A9gional-de-Tourisme-%C3%89questre-Auvergne-Rh%C3%B4ne-Alpes-313031748840048/"
+                                        target="_blank"><img
+                                            src="img/partenaires/comite-regional-de-tourisme-equestre.jpg" alt="filiere"
+                                            title="Comité Régional de tourisme équestre" class="img-responsive"
+                                            itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Comité Régional de tourisme équestre</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-autres">
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Person">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url" href="http://www.sophienarses.com/" target="_blank"><img
+                                            src="img/partenaires/photographe.jpg" alt="autres"
+                                            title="Photographe : Sophie Narses" class="img-responsive"
+                                            itemprop="image"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p>Photographe : <span itemprop="name">Sophie Narses</span></p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="https://www.producteurs-savoie-mont-blanc.com/gaec-les-fromages-de-montdenis-fromages-produits-laitiers-a-la-ferme.html"
+                                        target="_blank"><img src="img/partenaires/fromage.jpg" alt="autres"
+                                            title="Les fromages de Montdenis, la ferme des Brebiquettes"
+                                            class="img-responsive" itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">Les fromages de Montdenis, la ferme des Brebiquettes</p>
+                                </div>
+                            </div>
+                            <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0"
+                                itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <a itemprop="url"
+                                        href="http://www.francois-cholat.fr/nutrition-animale/lpf-nutrition-equine/"
+                                        target="_blank"><img src="img/partenaires/LPF.jpg" alt="autres"
+                                            title="LPF, nutrition équine" class="img-responsive" itemprop="logo"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-12">
+                                    <p itemprop="name">LPF Nutrition Équine</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="row">
+                <div class="col-xs-12">
+                    <h2>contact</h2>
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                        <div class="col-xs-12" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                            <h4>les ecuries de grange-neuve</h4>
+                            <p style="text-align: left">EARL Les écuries de Grange-Neuve <br>
+                                <span itemprop="streetAddress">285 impasse de grange-neuve</span> <br>
+                                <span itemprop="postalCode">74930</span>
                                 <span itemprop="addressLocality">Arbusigny</span> </p>
                         </div>
-                        <div class="col-xs-12 col-sm-6" >
-                            <p style="text-align: left"><i class="fas fa-phone"></i>+33 (0)6.89.79.65.04 <br>
-                                <i class="fas fa-at"></i>ecuries.gn@gmail.com</p>
+                        <div style="text-align: left" class="col-xs-12">
+                            <h4>hermine de turckheim</h4>
+                            <p><span itemprop="telephone">+33 (0)6.89.79.65.04</span> <br>
+                                <span itemprop="email">ecuries.gn@gmail.com</span></p>
+                            <button data-toggle="modal" data-backdrop="false" data-target="#formulaire"
+                                class="btn btn-primary btn-lg">Nous contacter <span
+                                    class="far fa-envelope"></span></button>
                         </div>
                     </div>
-                </div>
-                <div id="partenaires" class="row">
-                    <div  class="col-xs-12">
-                        <h2>partenaires</h2>
+                    <div id="map" class="col-xs-12 col-sm-6 col-sm-pull-6" itemprop="hasMap" itemscope
+                        itemtype="http://schema.org/Map">
+                        <link itemprop="mapType" href="http://schema.org/SeatingMap" />
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177003.98476574497!2d6.055193639951603!3d46.11713834490914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c77f9e14b42d1%3A0xcaedf8fc2c6be8d9!2sEARL+Les+%C3%A9curies+de+Grange-Neuve!5e0!3m2!1sen!2sau!4v1546997613254"
+                            width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                    <div class="col-xs-12 col-sm-11 col-md-10 col-sm-offset-1">
-                        <ul class="nav nav-pills nav-stacked pull-right col-xs-12 col-sm-5 col-md-4">
-                            <li class="active"><a href="#contenu-soins-courants" data-toggle="tab">Soins courants</a></li>
-                            <li><a href="#contenu-materiel" data-toggle="tab">Matériel</a></li>
-                            <li><a href="#contenu-transport" data-toggle="tab">Transport</a></li>
-                            <li><a href="#contenu-elevage" data-toggle="tab">Elevage</a></li>
-                            <li><a href="#contenu-filieres" data-toggle="tab">Filière professionnelle</a></li>
-                            <li><a href="#contenu-autres" data-toggle="tab">Autres</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane fade in col-xs-12 col-sm-7 col-md-8 active" id="contenu-soins-courants">
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.cliniqueequineargonay.fr/" target="_blank"><img src="img/partenaires/clinique-equine.jpg" alt="clinique equine" title="Clinique equine d'Argonay" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Clinique vétérinaire équine d'Argonay</p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.facebook.com/Haras-de-la-Vayrie-1470761062976945/" target="_blank"><img src="img/partenaires/centre-de-soin.jpg" alt="centre de soin" title="Les écuries de Vayrie" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Centre de soins, remise en forme et hydrothérapie : <span itemprop="name">Les écuries de la Vayrie</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12" itemprop="sponsor" itemscope itemtype="http://schema.org/Person">
-                                    <p>Pour un Ostéopathe équin, vous pouvez joindre <span itemprop="name">Amandine Paquet</span> au <span itemprop="telephone">06.86.99.29.65</span></p>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-materiel">
-                                <div class=" article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://tournet-nettoyage.fr/" target="_blank"><img src="img/partenaires/nettoyage.jpg" alt="nettoyage" title="agence de nettoyage TOURNET" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Nettoyage de couvertures, tapis : <span itemprop="name">TOURNET</span></p>
-                                    </div>
-                                </div>
-                                <div class=" article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://selle-occasion-rhone-alpes.e-monsite.com/" target="_blank"><img src="img/partenaires/SophiaMoreau.jpg" alt="sophia-moreau" title="Selles Occasion Rhône Alpes" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Conseil vente/location de selles : <span itemprop="name">Sophia Moreau</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-transport">
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.facebook.com/Ecurie-et-Transport-Vidale-477590392415012/" target="_blank"><img src="img/partenaires/transport-vidale.jpg" alt="transport" title="Transport de chevaux : Transport Vidale" class="img-responsive" itemprop="image"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Transport de chevaux : <span itemprop="name">Transport Vidale</span></p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.dadavroum.fr/annonce-location/boxer?date_start=04-07-2018&date_end=04-07-2018" target="_blank"><img src="img/partenaires/dadavroum.jpg" alt="transport" title="Location de VL en haute-Savoie : Dadavroom" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Location de VL en haute-Savoie : <span itemprop="name">Dadavroom</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-elevage">
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://les-minis-saumur.weebly.com/" target="_blank"><img src="img/partenaires/elevage-de-chevaux-miniatures.jpg" alt="elevage" title="Élevage de chevaux miniatures : Les minis MH" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Élevage de chevaux miniatures : <span itemprop="name">Les minis MH</span></p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.centre-equestre-cyclamens.fr/" target="_blank"><img src="img/partenaires/elevage-de-poneys-de-sport.jpg" alt="elevage" title="Élevage de poneys de sport : Élevage des Cyclamens" class="img-responsive"  itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Élevage de poneys de sport : <span itemprop="name">Élevage des Cyclamens</span></p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.elevagedelamure.com/ " target="_blank"><img src="img/partenaires/elevage-de-chevaux-de-selle.jpg" alt="elevage" title="Élevage de chevaux de selle : Élevage de la Mûre" class="img-responsive" itemprop="image"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Élevage de chevaux de selle : <span itemprop="name">Élevage de la Mûre</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-filieres">
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.cheval-auvergne-rhone-alpes.com/" target="_blank"><img src="img/partenaires/conseil-de-la-filiere-cheval.jpg" alt="filiere" title="Conseil de la filière cheval" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Conseil de la filière cheval</p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.equitation-auvergnerhonealpes.com/" target="_blank"><img src="img/partenaires/comite-regional-d-equitation.jpg" alt="filiere" title="Comité Régional d’équitation Auvergne-Rhône-Alpes" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Comité Régional d’équitation Auvergne-Rhône-Alpes</p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-1" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.rhonealpesdressage.com/" target="_blank"><img src="img/partenaires/comite-regional-de-dressage.jpg" alt="filiere" title="Comité Régional de dressage" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Comité Régional de dressage</p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0 col-md-offset-2" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.facebook.com/Comit%C3%A9-R%C3%A9gional-de-Tourisme-%C3%89questre-Auvergne-Rh%C3%B4ne-Alpes-313031748840048/" target="_blank"><img src="img/partenaires/comite-regional-de-tourisme-equestre.jpg" alt="filiere" title="Comité Régional de tourisme équestre" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Comité Régional de tourisme équestre</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade col-xs-12 col-sm-7 col-md-8" id="contenu-autres">
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Person">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.sophienarses.com/" target="_blank"><img src="img/partenaires/photographe.jpg" alt="autres" title="Photographe : Sophie Narses" class="img-responsive" itemprop="image"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p>Photographe : <span itemprop="name">Sophie Narses</span></p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="https://www.producteurs-savoie-mont-blanc.com/gaec-les-fromages-de-montdenis-fromages-produits-laitiers-a-la-ferme.html" target="_blank"><img src="img/partenaires/fromage.jpg" alt="autres" title="Les fromages de Montdenis, la ferme des Brebiquettes" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">Les fromages de Montdenis, la ferme des Brebiquettes</p>
-                                    </div>
-                                </div>
-                                <div class="article col-xs-10 col-sm-12 col-md-4 col-xs-offset-1 col-sm-offset-0" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <a itemprop="url" href="http://www.francois-cholat.fr/nutrition-animale/lpf-nutrition-equine/" target="_blank"><img src="img/partenaires/LPF.jpg" alt="autres" title="LPF, nutrition équine" class="img-responsive" itemprop="logo"></a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-12">
-                                        <p itemprop="name">LPF Nutrition Équine</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-sm-12 hidden-xs" itemscope itemtype="http://schema.org/LiveBlogPosting">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecuries.gn%2F%3Fhc_ref%3DARS90S55eIc9oCuqahxfghIRIq9zKa-MH_PxZfm_SqlTclbd-MRQ_wpO19slAd3lkUE%26fref%3Dnf&tabs=timeline%2C%20events%2C%20messages&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
+                            width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowTransparency="true" allow="encrypted-media"></iframe> </div>
+                    <div class="col-xs-12 visible-xs" itemscope itemtype="http://schema.org/LiveBlogPosting">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecuries.gn%2F%3Fhc_ref%3DARTlXx1iI4kS8sG2D3Iiotx8iIEGGwqPGYFvSi5ZEXhGA_SVmbUELEBG6jkC0jyOoTQ&tabs=timeline&width=280&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="280" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
-                <div id="contact" class="row">
-                    <div  class="col-xs-12">
-                        <h2>contact</h2>
-                        <div class="col-xs-12 col-sm-6 col-sm-push-6">
-                            <div class="col-xs-12" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
-                                <h4>les ecuries de grange-neuve</h4>
-                                <p style="text-align: left">EARL Les écuries de Grange-Neuve <br>  
-                                    <span itemprop="streetAddress">285 impasse de grange-neuve</span> <br> 
-                                    <span itemprop="postalCode">74930</span> 
-                                    <span itemprop="addressLocality">Arbusigny</span> </p>
-                            </div>
-                            <div style="text-align: left" class="col-xs-12">
-                                <h4>hermine de turckheim</h4>
-                                <p><span itemprop="telephone">+33 (0)6.89.79.65.04</span> <br>
-                                    <span itemprop="email">ecuries.gn@gmail.com</span></p>
-                                <button data-toggle="modal" data-backdrop="false" data-target="#formulaire" class="btn btn-primary btn-lg">Nous contacter <span class="far fa-envelope"></span></button>
-                            </div>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <img itemprop="logo" src="img/logo.png" alt="logo grange-neuve"
+                    title="le logo des écuries de Grange-Neuve">
+            </div>
+            <div class="modal fade" id="formulaire">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" onclick="resetForm()">x</button>
+                            <h4 class="modal-title">Nous contacter</h4>
                         </div>
-                        <div id="map" class="col-xs-12 col-sm-6 col-sm-pull-6" itemprop="hasMap" itemscope itemtype="http://schema.org/Map">
-                            <link itemprop="mapType" href="http://schema.org/SeatingMap" /> 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177003.98476574497!2d6.055193639951603!3d46.11713834490914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c77f9e14b42d1%3A0xcaedf8fc2c6be8d9!2sEARL+Les+%C3%A9curies+de+Grange-Neuve!5e0!3m2!1sen!2sau!4v1546997613254" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div class="modal-body" id="formBody">
+                            <form class="form-horizontal" action="takeform.php" autocomplete="on">
+                                <div id="formGroupName" class="form-group">
+                                    <label class="col-sm-2 control-label" for="nom">Nom</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="nom" id="nom"
+                                            placeholder="Votre nom">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div id="formGroupMail" class="form-group">
+                                    <label class="col-sm-2 control-label" for="email">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Votre Email">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Sujet</label>
+                                    <div class="col-sm-10">
+                                        <select name="sujet" class='form-control'>
+                                            <option value="Question sur la journée portes ouvertes">Journée portes
+                                                ouvertes</option>
+                                            <option value="Question sur les conditions d'accès">Conditions d'accès
+                                            </option>
+                                            <option value="Question sur les installations">Précisions sur les
+                                                installations</option>
+                                            <option value="Question sur les offres et services">Details sur les offres
+                                                et services </option>
+                                            <option value="Question d'un client">Autres</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="formGroupText" class="form-group">
+                                    <label class="col-sm-2 control-label" for="body">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="5" name="body" id="body"
+                                            placeholder="Votre message"></textarea>
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-2 col-sm-offset-5">
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6LdoD44UAAAAAPOfQ3rub7XrZAaRTrBlY-C1jOzt"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-2 col-sm-3 col-sm-offset-9">
+                                        <button id="formSubmit" type="submit" class="btn btn-primary"
+                                            data-loading-text="Envoi ...">Envoyer <span
+                                                class="far fa-paper-plane"></span></button>
+                                    </div>
+                                    <p id="formResponse"></p>
+                                </div>
+                            </form>
                         </div>
-                        <div class="col-sm-12 hidden-xs" itemscope itemtype="http://schema.org/LiveBlogPosting">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecuries.gn%2F%3Fhc_ref%3DARS90S55eIc9oCuqahxfghIRIq9zKa-MH_PxZfm_SqlTclbd-MRQ_wpO19slAd3lkUE%26fref%3Dnf&tabs=timeline%2C%20events%2C%20messages&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                    </div>
-                        <div class="col-xs-12 visible-xs" itemscope itemtype="http://schema.org/LiveBlogPosting">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecuries.gn%2F%3Fhc_ref%3DARTlXx1iI4kS8sG2D3Iiotx8iIEGGwqPGYFvSi5ZEXhGA_SVmbUELEBG6jkC0jyOoTQ&tabs=timeline&width=280&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="280" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                    
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                    <img itemprop="logo" src="img/logo.png" alt="logo grange-neuve" title="le logo des écuries de Grange-Neuve">
-                </div>
-                <div class="modal fade" id="formulaire">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" onclick="resetForm()">x</button>
-                                <h4 class="modal-title">Nous contacter</h4>
-                            </div>
-                            <div class="modal-body" id="formBody">
-                                <form class="form-horizontal" action="takeform.php" autocomplete="on">
-                                    <div id="formGroupName" class="form-group">
-                                        <label class="col-sm-2 control-label" for="nom">Nom</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" name ="nom" id="nom" placeholder="Votre nom">
-                                            <span class="help-block"></span>
-                                        </div>
-                                    </div>
-                                    <div id="formGroupMail" class="form-group">
-                                        <label class="col-sm-2 control-label" for="email">Email</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email">
-                                            <span class="help-block"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 control-label">Sujet</label>
-                                        <div class="col-sm-10">
-                                            <select name="sujet" class='form-control'>
-                                                <option value="Question sur la journée portes ouvertes">Journée portes ouvertes</option>
-                                                <option value="Question sur les conditions d'accès">Conditions d'accès</option>
-                                                <option value="Question sur les installations">Précisions sur les installations</option>
-                                                <option value="Question sur les offres et services">Details sur les offres et services </option>
-                                                <option value="Question d'un client">Autres</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div  id="formGroupText" class="form-group">
-                                        <label class="col-sm-2 control-label" for="body">Message</label>
-                                        <div class="col-sm-10">
-                                            <textarea class="form-control" rows="5" name="body" id="body" placeholder="Votre message"></textarea>
-                                            <span class="help-block"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-2 col-sm-offset-5">
-                                            <div class="g-recaptcha" data-sitekey="6LdoD44UAAAAAPOfQ3rub7XrZAaRTrBlY-C1jOzt"></div>
-                                        </div>  
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-xs-2 col-sm-3 col-sm-offset-9">
-                                            <button id="formSubmit" type="submit" class="btn btn-primary" data-loading-text="Envoi ...">Envoyer <span class="far fa-paper-plane"></span></button>
-                                        </div>
-                                        <p id="formResponse"></p>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button id="formFooter" class="btn btn-default" data-dismiss="modal" onclick="resetForm()">Annuler</button>
-                            </div>    
+                        <div class="modal-footer">
+                            <button id="formFooter" class="btn btn-default" data-dismiss="modal"
+                                onclick="resetForm()">Annuler</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="col-xs-12">
-                <div class="btn-group" itemprop="breadcrumb">
-                    <a class="btn btn-link" href="#coverture">haut de page</a>
-                    <a class="btn btn-link" href="mentions-legales.html">mentions legal</a>
-                </div>
+    </div>
+    <footer>
+        <div class="col-xs-12">
+            <div class="btn-group" itemprop="breadcrumb">
+                <a class="btn btn-link" href="#coverture">haut de page</a>
+                <a class="btn btn-link" href="mentions-legales.html">mentions legal</a>
             </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js?n=1"></script>
-        <script src="js/jquery.bcSwipe.min.js"></script>
-        <script>$('.carousel').bcSwipe({threshold: 50});</script>
-        <script>$(scrollSpyFunction());</script>
-        <script>$(navbarFunction());</script>
-        <script>$(submitFormFunction());</script>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js?n=1"></script>
+    <script src="js/jquery.bcSwipe.min.js"></script>
+    <script>$('.carousel').bcSwipe({ threshold: 50 });</script>
+    <script>$(scrollSpyFunction());</script>
+    <script>$(navbarFunction());</script>
+    <script>$(submitFormFunction());</script>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga = function () {
-                ga.q.push(arguments)
-            };
-            ga.q = [];
-            ga.l = +new Date;
-            ga('create', 'UA-121982099-1', 'auto');
-            ga('send', 'pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-121982099-1', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
 </html>
